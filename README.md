@@ -36,7 +36,7 @@
 4.El bot comenzará a enviar mensajes al webhook cada 2 minutos indicando el estado del usuario.
 
 ## Seguridad
-- Nunca compartas tu webhooks `some` si vas a subirlo como modificacion
+- Nunca compartas tu webhooks `UserData` si vas a subirlo como modificacion
 - Esto es para uso personal y educativo. RESPETA LOS TERMINOS DE USO DE ROBLOX Y DISCORD. NO ME HAGO RESPONSABLE DE DAÑOS!
 
 ## Creditos
