@@ -27,13 +27,13 @@ def Webhook():
     def url_valida(url):
         return "discord.com/api/webhooks" in url
 
-    if not os.path.exists("some"):
+    if not os.path.exists("UserData"):
         while True:
             WebhookURL = str(input("WebhookURL: "))
             if url_valida(WebhookURL):
                 break
             print(rojo + "URL must be from discord..." + reset)
-        with open(file="some", mode="w+") as f:
+        with open(file="UserData", mode="w+") as f:
             if not f.writable():
                 print(rojo + "File not writeable!" + reset)
             f.write(WebhookURL)
@@ -48,15 +48,15 @@ def Webhook():
                 if url_valida(WebhookURL):
                     break
                 print(rojo + "La URL debe ser un webhook de Discord." + reset)
-            with open(file="some", mode="w+") as f:
+            with open(file="UserData", mode="w+") as f:
                 f.write(WebhookURL)
         elif choice == 2:
             return
         return WebhookURL
 
 def GETURL():
-  if os.path.exists("some"):
-        with open("some", mode="r") as f:
+  if os.path.exists("UserData"):
+        with open("UserData", mode="r") as f:
             contenido = f.read()
         return contenido
     
