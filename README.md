@@ -22,7 +22,7 @@
   ```
 ---
 
-##Uso
+## Uso
 1. Clona el repositorio
   ```bash
   git clone https://github.com/tuusuario/UsersScope.git
@@ -41,4 +41,5 @@
 
 ## Creditos
 -Roblox and Discord: @axelitogamertv2
--Eso es todo. Usenlo con cuidado. :P
+
+Eso es todo. Usenlo con cuidado. :P
